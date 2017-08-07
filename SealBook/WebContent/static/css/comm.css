@@ -1,0 +1,561 @@
+@CHARSET "UTF-8";
+
+.test{
+	width:100px;
+	height:100px;
+	background-color:#f00;
+}
+
+/*******添加一些特定的CSS************/
+.bold{
+	font-weight:bold;
+}
+/******************************/
+*{
+	padding:0px;
+	margin:0px;
+}
+
+
+.contain{
+	padding:10px;
+	width:1000px;
+	margin:0px auto;
+	border:1px #FC6 dotted;
+	overflow:auto;
+}
+
+.head .connect{
+	float:left;
+}
+.head .connect span{
+	color:#f00;
+	font-weight:bold;
+}
+.head .own{
+	font-size:14px;
+	float:right;
+	color:#9D9693;
+}
+.head .own a{
+	color:#9D9693;
+	text-decoration:none;
+}
+.head .own a:hover{
+	color:#000;
+}
+
+.head .logo{
+	width:100%;
+	float:left;
+	height:100px;
+}
+.logo .img{
+	padding:10px;
+	width:160px;
+	float:left;
+}
+.logo .msg{
+	padding:10px;
+	color:#CCC;
+	width:200px;
+	float:right;
+}
+.logo .msg:hover{
+	color:#F00;
+}
+/*菜单的*/
+.head .menu{
+	float:left;
+	width:100%;
+	border-radius:5px;
+	background-color:#2A2A2A;
+	position:relative;
+}
+.head .menu ul{
+	list-style:none;
+}
+
+
+.head .menu ul li{
+	border-right:1px solid #eee;
+	padding:13px;
+	float:left;
+	cursor:pointer;
+}
+.head .menu ul li a{
+	color:#fff;
+	font-size:14px;
+	text-decoration:none;
+}
+.head .menu ul li:hover{
+	background-color:#950C09;
+}
+
+.head .menu input{
+	float:right;
+	margin-top:10px;
+	padding-left:10px;
+	padding-right:10px;
+	height:25px;
+	border:0px;
+	width:200px;
+	border-radius:5px 0px 0px 5px;
+}
+.head .menu span{
+	display:block;
+	margin-top:10px;
+	margin-right:20px;
+	float:right;
+	width:20px;
+	height:25px;
+	border-radius:0px 5px 5px 0px;
+	background:url(img/f1.png) no-repeat center;
+	background-color:#fff;
+}
+.head .menu span:hover{
+	background:url(img/f2.png) no-repeat center;
+	background-color:#fff;
+}
+
+
+/*5个外边距（左右）*/
+.mg-5{
+	margin-left:5px;
+	margin-right:5px;
+}
+.mg-3{
+	margin-left:3px;
+	margin-right:3px;
+}
+.mg-2{
+	margin-left:2px;
+	margin-right:2px;
+}
+.footer{
+	width:100%;
+	padding-top:10px;
+	text-align:center;
+	float:left;
+}
+
+/**下面开发中间模块*/
+
+.show{
+	float:left;
+	width:100%;
+	margin-top:5px;
+	border-top:1px solid #CCC;
+	border-bottom:1px solid #CCC;
+}
+.show .classfiy{
+	float:left;
+	width:25%;
+	border:1px solid #CCC;
+	height:300px;
+}
+
+.show .classfiy .title{
+	font-size:18px;
+	padding:10px;
+	color:#fff;
+	background-color:#950C09;
+}
+.show .classfiy .list{
+	height:250px;
+	overflow:auto;
+}
+.show .classfiy ul li{
+	font-size:14px;
+	list-style:none;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:10px;
+	padding-top:10px;
+	border-bottom:1px solid #ccc;
+	cursor:pointer;
+}
+.show .classfiy ul li a{
+	text-decoration:none;
+	color:#666;
+}
+.show .classfiy ul li a:hover{
+	color:#000;
+}
+.show .detail{
+	float:right;
+	width:73%;
+	border:1px solid #CCC;
+	height:300px;
+}
+
+.show .detail img{
+	border:0px;
+	height:300px;
+}
+.show .detail .img{
+	padding:0 5px;
+	float:left;
+}
+
+.show .detail .msg .name{
+	padding:50px 10px 5px 10px;
+	color:#950C09;
+	font-size:70px;
+}
+
+.show .detail .msg .descripts{
+	font-size:16px;
+	padding:5px;
+}
+.show .detail .msg a{
+	display:inline-block;
+	padding:5px 10px;
+	background-color:#950C09;
+	border-radius:5px;
+	color:#fff;
+}
+.list{
+	float:left;
+	width:100%;
+}
+.list .items{
+	float:left;
+	width:100%;
+}
+.list .items .title{
+	margin-top:5px;
+	color:#ccc;
+	padding:10px;
+	border:1px solid #CCC;
+}
+.list .items .title .type{
+	font-size:18px;
+}
+.list .items .title a:hover{
+	color:#F00;
+}
+.list .items .title a{
+	color:#000;
+	text-decoration:none;
+	float:right;
+	font-size:12px;
+	font-weight:bold;
+}
+.list .items .title a span{
+	float:right;
+	display:block;
+	padding:8px;
+	background-image:url(img/combo_arrow.png);
+}
+.list .items ul li{
+	padding:3px;
+	list-style:none;
+	float:left;
+	width:180px;
+	height:260px;
+	margin:5px;
+	border:1px solid  #ccc;
+	font-size:14px;
+}
+.list .items ul li a{
+	color:#000;
+	text-decoration:none;
+}
+.list .items ul li:hover{
+	border:1px solid #f00;
+}
+
+.list .items ul li .author{
+	color:#BBB;
+}
+.list .items ul li .name{
+	font-weight:bold;
+}
+.list .items ul li img{
+	width:150px;
+	height:180px;
+}
+.list .items ul li .money1{
+	font-weight:bold;
+	color:#D90F28;
+}
+.list .items ul li .money2{
+	font-weight:bold;
+	text-decoration:line-through;
+	color:#BBB;
+}
+/**用户登录界面**/
+.login{
+	padding:10px;
+	width:70%;
+	overflow:auto;
+}
+.login .title{
+	padding-top:80px;
+	padding-bottom:50px;
+	text-align:center;
+	color:#999;
+	font-size:24px;
+}
+
+.login .form{
+	text-align:center;
+	color:#999;
+	font-size:18px;
+}
+
+.login .form label{
+	margin-bottom:30px;
+	display: inline-block;
+	width:100px;
+	padding:10px;
+}
+
+.login .form .input{
+	height:30px;
+	border:0px;
+	width:200px;
+	border-bottom:1px dashed #FFCC66;
+}
+.login .form .button{
+	padding-top:20px;
+	padding-bottom:50px;
+}
+
+.login .form .button input{
+	display:inline-block;
+	padding:5px 20px 5px 20px;
+	width:100px;
+	height:40px;
+	color:#fff;
+	font-size:20px;
+	background-color:#950C09;
+}
+
+/**注册界面**/
+
+.register{
+	padding:10px;
+	width:70%;
+	overflow:auto;
+}
+.register .title{
+	padding:5px;
+	text-align:center;
+	color:#999;
+	font-size:24px;
+}
+
+.register .form{
+	text-align:center;
+	color:#999;
+	font-size:18px;
+}
+
+.register .form label{
+	display: inline-block;
+	width:100px;
+	padding:5px;
+}
+
+.register .form .input{
+	height:30px;
+	border:0px;
+	width:200px;
+	border-bottom:1px dashed #FFCC66;
+}
+.register .form .radio{
+	margin-left:60px;
+}
+.register .form .button{
+	padding-top:20px;
+	padding-bottom:50px;
+}
+
+.register .form .button input{
+	display:inline-block;
+	padding:5px 20px 5px 20px;
+	width:100px;
+	height:40px;
+	color:#fff;
+	font-size:20px;
+	background-color:#950C09;
+}
+
+.buy{
+	float:left;
+	width:100%;
+}
+.buy .details{
+	float:left;
+	width:65%;
+	overflow: auto;
+}
+
+.buy .details .name{
+	padding:10px 5px 10px 5px;
+	font-size:24px;
+}
+
+.buy .details .price{
+	color:#999;
+	padding-top:10px;
+	padding-bottom:20px;
+	border-bottom:2px solid #950C09;
+}
+.buy .details .msg{
+	padding-top:20px;
+	color:#999;
+	border-bottom:2px solid #bbb;
+}
+.buy .details .msg .count{
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.buy .details .msg .num{
+	padding-bottom:10px;
+}
+.buy .details .msg .num .sub{
+	font-weight:bold;
+	cursor:pointer;
+	padding:8px;
+	width:0px;
+	display:inline-block;
+}
+.buy .details .msg .num .sub:hover{
+	color:#f00;
+}
+.buy .details .msg .num .add{
+	font-weight:bold;
+	cursor:pointer;
+	padding:8px;
+	width:0px;
+	display:inline-block;
+}
+.buy .details .msg .num .add:hover{
+		color:#f00;
+}
+.buy .details .msg input{
+	width:40px;
+	height:30px;
+}
+.buy .details .price .current{
+	color:#f00;
+	font-size:18px;
+	padding-right:6px;
+}
+.buy .details .price .prime{
+	font-size:14px;
+	text-decoration: line-through;
+}
+.buy .details .btn{
+	padding:10px;
+}
+.buy .details .btn .goBuy{
+	display:inline-block;
+	background-color:#FCC;
+	padding:10px;
+	width:150px;
+	height:40px;
+	border:1px solid #950C09;
+}
+
+.buy .details .btn .goBuy:hover{
+	border:1px solid #f00;
+}
+.buy .details .btn .add{
+	display:inline-block;
+	background-color:#950C09;
+	padding:10px;
+	width:150px;
+	height:40px;
+	border:1px solid #950C09;
+	margin-left:50px;
+}
+.buy .details .btn .add:hover{
+	border:1px solid #FCC;
+}
+.buy .tools{
+	float:right;
+	width:25%;
+	overflow: auto;
+}
+.buy .tools .msg{
+	padding:10px;
+	font-size:14px;
+	color:#aaa;
+}
+.buy .tools .msg li{
+	padding:5px;
+}
+
+.buy .tools .nav{
+	padding:10px;
+	font-size:14px;
+	color:#aaa;
+}
+.buy .tools .nav li a{
+	text-decoration:none;
+	color:#aaa;
+}
+.buy .tools .nav li{
+	padding:5px;
+	border-bottom:1px solid #888;
+}
+
+.details .items{
+	float:left;
+	width:100%;
+}
+.details .items ul li{
+	padding:3px;
+	list-style:none;
+	float:left;
+	width:180px;
+	margin:5px;
+	border:1px solid  #ccc;
+	font-size:14px;
+}
+
+.details .items ul li a{
+	color:#000;
+	text-decoration:none;
+}
+.details .items ul li:hover{
+	border:1px solid #f00;
+}
+
+.details .items ul li .author{
+	color:#BBB;
+}
+.details .items ul li .name{
+	font-weight:bold;
+}
+.details .items ul li img{
+	width:150px;
+	height:180px;
+}
+.details .items ul li .money1{
+	font-weight:bold;
+	color:#D90F28;
+}
+.details .items ul li .money2{
+	font-weight:bold;
+	text-decoration:line-through;
+	color:#BBB;
+}
+.link-btns{
+	border-radius:3px;
+	color:#fff;
+	text-decoration:none;
+	display:inline-block;
+	padding:5px;
+	margin-left:5px;
+	margin-right:5px;
+	font-size:12px;
+	background-color:#950C09;
+}
+.link-btns:hover{
+	background-color:#d50C09;
+}

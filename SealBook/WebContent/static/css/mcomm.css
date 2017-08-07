@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* CSS Document */
+.m_img_tool{
+	z-index:9999;
+	position:absolute;
+	width:400px;
+}
+

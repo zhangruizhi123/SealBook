@@ -1,0 +1,1 @@
+create table menu(id varchar(36),parentId varchar(36),text varchar(100),state varchar(10),url varchar(200));
